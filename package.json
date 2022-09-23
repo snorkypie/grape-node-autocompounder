@@ -1,14 +1,14 @@
 {
-  "name": "fizzyl-brr-nodes",
+  "name": "grape-node-autocompounder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Automatically compound grape nodes based on config",
   "main": "index.js",
   "scripts": {
     "compounder": "ts-node grape-node-autocompounder.ts"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@ethersproject/providers": "^5.7.0",
     "@types/node": "^18.7.16",
