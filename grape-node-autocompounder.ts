@@ -60,7 +60,7 @@ async function grapeCompounder() {
       return;
     }
   } catch {
-    log(false, `Crashed while fetching rewards`);
+    log(true, `Crashed while fetching rewards`);
     return;
   }
 
