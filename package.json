@@ -4,7 +4,7 @@
   "description": "Automatically compound grape nodes based on config",
   "main": "index.js",
   "scripts": {
-    "compounder": "ts-node grape-node-autocompounder.ts"
+    "compounder": "ts-node src/grape-node-autocompounder.ts"
   },
   "keywords": [],
   "author": "",
