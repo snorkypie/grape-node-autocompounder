@@ -120,7 +120,6 @@ const config: Config = Object.fromEntries(
     })
     .flat()
 );
-process.exit(1);
 
 if (!correctlyParsed) {
   process.exit(1);
